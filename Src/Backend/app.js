@@ -15,7 +15,7 @@ app.use(
   })
 );
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 const dispositivoRouter = require("./routes/dispositivos");
 app.use("/dispositivos", dispositivoRouter);
