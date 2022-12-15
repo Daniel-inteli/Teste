@@ -50,7 +50,7 @@ function deletarDispositivo() {
 
 async function deleteDevice() {
     await $.ajax({
-      url: "http://localhost:3001/dispositivos/delete",
+      url: "http://localhost:3000/dispositivos/delete",
       type: "DELETE",
       data: { codigo_patrimonio: device.codigo_patrimonio },
       success: async function (resul) {

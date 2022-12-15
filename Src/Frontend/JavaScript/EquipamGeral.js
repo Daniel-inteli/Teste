@@ -2,7 +2,7 @@ carregarDispositivos();
 
 async function carregarDispositivos() {
   await $.ajax({
-    url: "http://localhost:3001/dispositivos/",
+    url: "http://localhost:3000/dispositivos/",
     success: function (resul) {
       devices = resul.message
     }
